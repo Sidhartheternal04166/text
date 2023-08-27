@@ -1,0 +1,37 @@
+body{
+    margin:0
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    font-family: sans-serif ;
+    font-size: 20px;
+    padding: 7px;
+}
+span{
+    margin:7px
+}
+body{
+    background-image: url('http://localhost:3000/img/banner-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:chartreuse;
+    font-size: large;
+}
+.down{
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    width: 99.1%;
+    align-items: center;
+    background:black;
+    color: aliceblue;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 7px;
+margin: 0;
+}
